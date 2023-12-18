@@ -395,6 +395,29 @@ main section.section_three .white_container {
     padding: 0 15px;
     box-sizing: border-box;
   }
+
+  footer.section_footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer .grey_container.container--narrow {
+    margin-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    width: 100%;
+  }
+
+  footer .widget.widget_one {
+    flex: 4;
+  }
+
+  footer .widget.widget_two,
+  footer .widget.widget_three,
+  footer .widget.widget_four {
+    flex: 1;
+  }
 }
 
 /* EINDE MEDIA QUERIES */
